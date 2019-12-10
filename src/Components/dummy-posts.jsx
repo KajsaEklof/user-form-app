@@ -15,7 +15,7 @@ const posts = [
     {
      title: "My third post",
      excerpt: "This is my third post with more content inside",
-     image: "https://bit.ly/2WNi2Ml"
+     image: "https://github.com/KajsaEklof/user-form-app/blob/homework/src/Components/React_logo_wordmark.png"
     },
    
     {

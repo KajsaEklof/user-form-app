@@ -15,7 +15,7 @@ class Posts extends Component {
       {
        title: "My first post",
        excerpt: "This is my first post with more content inside",
-       image: "https://bit.ly/2WNi2Ml"
+       image: "https://raw.githubusercontent.com/KajsaEklof/user-form-app/homework/src/Components/React_logo_wordmark.png"
       },
      
       {
@@ -59,7 +59,7 @@ class Posts extends Component {
                 <CardMedia
                   component="img"
                   alt="Contemplative Reptile"
-                  height="140"
+                  width="140"
                   image={post.image}
                   title="Contemplative Reptile"
                 />
