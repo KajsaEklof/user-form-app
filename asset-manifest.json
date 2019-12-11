@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "s//kajsaeklof.github.io/user-form-app/static/css/main.58b10100.chunk.css",
-    "main.js": "s//kajsaeklof.github.io/user-form-app/static/js/main.72a71a17.chunk.js",
-    "main.js.map": "s//kajsaeklof.github.io/user-form-app/static/js/main.72a71a17.chunk.js.map",
-    "runtime-main.js": "s//kajsaeklof.github.io/user-form-app/static/js/runtime-main.0046cda2.js",
-    "runtime-main.js.map": "s//kajsaeklof.github.io/user-form-app/static/js/runtime-main.0046cda2.js.map",
-    "static/js/2.387d8f1d.chunk.js": "s//kajsaeklof.github.io/user-form-app/static/js/2.387d8f1d.chunk.js",
-    "static/js/2.387d8f1d.chunk.js.map": "s//kajsaeklof.github.io/user-form-app/static/js/2.387d8f1d.chunk.js.map",
-    "index.html": "s//kajsaeklof.github.io/user-form-app/index.html",
-    "precache-manifest.05cd95ad3b3391d43693e0df6ce0280a.js": "s//kajsaeklof.github.io/user-form-app/precache-manifest.05cd95ad3b3391d43693e0df6ce0280a.js",
-    "service-worker.js": "s//kajsaeklof.github.io/user-form-app/service-worker.js",
-    "static/css/main.58b10100.chunk.css.map": "s//kajsaeklof.github.io/user-form-app/static/css/main.58b10100.chunk.css.map",
-    "static/js/2.387d8f1d.chunk.js.LICENSE": "s//kajsaeklof.github.io/user-form-app/static/js/2.387d8f1d.chunk.js.LICENSE"
+    "main.css": "/user-form-app/static/css/main.58b10100.chunk.css",
+    "main.js": "/user-form-app/static/js/main.609c0d71.chunk.js",
+    "main.js.map": "/user-form-app/static/js/main.609c0d71.chunk.js.map",
+    "runtime-main.js": "/user-form-app/static/js/runtime-main.ae5e0e7e.js",
+    "runtime-main.js.map": "/user-form-app/static/js/runtime-main.ae5e0e7e.js.map",
+    "static/js/2.387d8f1d.chunk.js": "/user-form-app/static/js/2.387d8f1d.chunk.js",
+    "static/js/2.387d8f1d.chunk.js.map": "/user-form-app/static/js/2.387d8f1d.chunk.js.map",
+    "index.html": "/user-form-app/index.html",
+    "precache-manifest.5f5ab7d91498238f0554969c7907891e.js": "/user-form-app/precache-manifest.5f5ab7d91498238f0554969c7907891e.js",
+    "service-worker.js": "/user-form-app/service-worker.js",
+    "static/css/main.58b10100.chunk.css.map": "/user-form-app/static/css/main.58b10100.chunk.css.map",
+    "static/js/2.387d8f1d.chunk.js.LICENSE": "/user-form-app/static/js/2.387d8f1d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.0046cda2.js",
+    "static/js/runtime-main.ae5e0e7e.js",
     "static/js/2.387d8f1d.chunk.js",
     "static/css/main.58b10100.chunk.css",
-    "static/js/main.72a71a17.chunk.js"
+    "static/js/main.609c0d71.chunk.js"
   ]
 }
