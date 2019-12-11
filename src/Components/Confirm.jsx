@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import RaisedButton from "material-ui/RaisedButton";
+import Button from "@material-ui/core/Button";
 import { List, ListItem } from "material-ui/List";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import Header from "./Header";
@@ -46,27 +46,37 @@ export default class FormPersonalDetails extends Component {
               <ListItem primaryText="Gender" secondaryText={gender} />
               <ListItem
                 primaryText="Terms and Conditions"
-                secondaryText={termsandconditions ? "I agree to user terms and conditions" : "I have not agreed to the user terms and conditions" }
+                secondaryText={
+                  termsandconditions
+                    ? "I agree to user terms and conditions"
+                    : "I have not agreed to the user terms and conditions"
+                }
               />
               <ListItem
                 primaryText="Emails about updates"
-                secondaryText={subscription ? "I would like emails about updated" : "I would not like emails about updates"}
+                secondaryText={
+                  subscription
+                    ? "I would like emails about updated"
+                    : "I would not like emails about updates"
+                }
               />
             </List>
             <br />
-            <RaisedButton
-              label="Confirm"
-              primary={true}
+            <Button
+              variant="contained"
+              color="primary"
               style={styles.button}
               onClick={this.continue}
-            />
-
-            <RaisedButton
-              label="Back"
-              primary={false}
+            >
+              Confirm
+            </Button>
+            <Button
+              variant="contained"
               style={styles.button}
               onClick={this.back}
-            />
+            >
+              Back
+            </Button>
           </div>
         </React.Fragment>
       </MuiThemeProvider>

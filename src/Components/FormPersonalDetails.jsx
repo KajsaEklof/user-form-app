@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import TextField from "material-ui/TextField";
-import RaisedButton from "material-ui/RaisedButton";
-
+import Button from "@material-ui/core/Button";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import Header from "./Header";
@@ -61,19 +60,24 @@ export default class FormPersonalDetails extends Component {
             />
 
             <br />
-            <RaisedButton
-              label="Continue"
-              primary={true}
-              style={styles.button}
-              onClick={this.continue}
-            />
+            <Button
+            variant="contained"
+            color="primary"
+            style={styles.button}
+            onClick={this.continue}
+          >
+            Continue
+          </Button>
+      
 
-            <RaisedButton
-              label="Back"
-              primary={false}
+            <Button
+            variant="contained"
+            
               style={styles.button}
               onClick={this.back}
-            />
+            >
+            Back
+            </Button>
           </div>
         </React.Fragment>
       </MuiThemeProvider>

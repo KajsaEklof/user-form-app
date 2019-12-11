@@ -2,10 +2,16 @@ import React, { Component } from "react";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
 import { List, ListItem } from "material-ui/List";
 import Header from "./Header";
-import Posts from './Posts';
+import Posts from "./Posts";
+import Button from "@material-ui/core/Button";
 
 
 export default class FormPersonalDetails extends Component {
+
+  backToStart = e => {
+    e.preventDefault();
+    this.props.firstStep();
+  };
   render() {
     const {
       values: {
@@ -44,6 +50,10 @@ export default class FormPersonalDetails extends Component {
                 secondaryText={subscription}
               />
             </List>
+        
+          <Button variant="contained" style={styles.button} onClick={this.backToStart}>
+            Back to the start
+          </Button>
           </div>
           <Posts />
         </React.Fragment>
@@ -51,3 +61,12 @@ export default class FormPersonalDetails extends Component {
     );
   }
 }
+
+const styles = {
+  button: {
+    margin: 15
+  },
+  form: {
+    left: 0
+  }
+};
